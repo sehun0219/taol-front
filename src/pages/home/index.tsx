@@ -1,5 +1,6 @@
+import GlobalLayout from "@/components/layout/GlobalLayout";
 const HomePage = () => {
-  return <div>hello</div>;
+  return <GlobalLayout />;
 };
 
 export default HomePage;

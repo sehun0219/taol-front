@@ -3,7 +3,9 @@ import NavBar from "@/components/common/NavBar";
 const GlobalLayout = () => {
   return (
     <div>
-      <header></header>
+      <header>
+        <NavBar />
+      </header>
     </div>
   );
 };
